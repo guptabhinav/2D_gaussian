@@ -1,0 +1,7 @@
+set xlabel 'x'
+set ylabel 'y'
+set contour both
+set view 0,0
+set cntrparam levels incr -0.02,0.0005,0
+splot [-2:2] [-2:2] 'output' us 1:2:3 w l
+
